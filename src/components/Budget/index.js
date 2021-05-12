@@ -20,6 +20,7 @@ const Budget = () => {
       {editMode === true ? (
         <>
           <input
+            type="number"
             value={updatedBudget}
             onChange={(e) => setUpdatedBudget(e.target.value)}
           />
